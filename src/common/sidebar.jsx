@@ -117,7 +117,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
 
       {/* image light box start */}
       {isOpen && (
-        <ImagePopup
+        <imgPopup
           images={img}
           setIsOpen={setIsOpen}
           photoIndex={photoIndex}

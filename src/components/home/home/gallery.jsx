@@ -149,7 +149,7 @@ const Gallery = () => {
 
       {/* image light box start */}
       {isOpen && (
-        <ImagePopup
+        <imgPopup
           images={images}
           setIsOpen={setIsOpen}
           photoIndex={photoIndex}
